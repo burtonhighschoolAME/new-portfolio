@@ -1,9 +1,16 @@
 ---
 layout: default
-title: Simplefolio &emdash; Geek Meets Chic
+title: Simplefolio
 ---
+<h1>Posts</h1>
 <ul>
 {% for post in site.posts %}
 	<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<h1>Projects</h1>
+<ul>
+{% for proj in site.categories.projects %}
+	<li><a href="{{ site.url }}{{ proj.url }}">{{ proj.title }}</a></li>
 {% endfor %}
 </ul>

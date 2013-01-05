@@ -2,7 +2,10 @@
 author: Your Name
 
 # The URL where the portfolio is hosted.
-url: http://simplefolio.com/user
+url: http://simplefolio.com/
+
+# The subdirectory containing your portfolio.
+baseurl: /portfolio
 
 # The title of the site.
 title: My Simplefolio
