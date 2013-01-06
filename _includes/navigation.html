@@ -1,12 +1,31 @@
 <!-- navigation start -->
-<div class="navbar">
+<div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-inner">
-		<a class="brand" href="{{ site.url }}">{{ site.title }}!</a>
-		<ul class="nav">
-			<li><a href="{{ site.url }}/projects">Projects</a></li>
-			<li><a href="{{ site.url }}/resume">Resume</a></li>
-			<li><a href="{{ site.url }}/contact">Contact</a></li>
-		</ul>
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<a class="brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+					<li><a href="{{ site.url }}{{ site.baseurl }}/resume">Resume</a></li>
+					<li><a href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="{{ site.url }}{{ site.baseurl }}/projects">All</a></li>
+							<li class="divider"></li>
+							<li class="nav-header">My Projects</li>
+							{% for post in site.categories.projects %}
+							<li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+							{% endfor %}
+						</ul>
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
 	</div>
 </div>
 <!-- navigation end -->

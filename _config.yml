@@ -9,3 +9,6 @@ baseurl: /portfolio
 
 # The title of the site.
 title: My Simplefolio
+
+# Permalink settings
+permalink: /:categories/:title

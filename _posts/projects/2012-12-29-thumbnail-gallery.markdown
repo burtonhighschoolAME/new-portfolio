@@ -1,6 +1,7 @@
 ---
 layout: thumbnail-gallery
 title: Thumbnail Gallery
+category: projects
 images: 
 - src: http://dummyimage.com/600/0080e2/f.png&text=placeholder+one
   label: Thumbnail One
