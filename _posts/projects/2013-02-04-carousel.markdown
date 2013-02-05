@@ -1,6 +1,6 @@
 ---
-layout: thumbnail-gallery
-title: Thumbnail Gallery
+layout: carousel
+title: Image Carousel
 category: projects
 images: 
 - src: http://dummyimage.com/1170x400/0080e2/f.png&text=placeholder+one
@@ -14,7 +14,7 @@ images:
   caption: This is the third thumbnail that I am sharing with you. This one is special, because it has way more text than the other ones around it. I think that's pretty neat, but I'm sure there are some people who would beg to differ.
 - src: http://dummyimage.com/1170x400/0080e2/f.png&text=placeholder+four
   label: Thumbnail Four
-  caption: This is the fourth thumbnail that I am sharing with you.   
+  caption: This is the fourth thumbnail that I am sharing with you.	  
 - src: http://dummyimage.com/1170x400/0080e2/f.png&text=placeholder+five
   label: Thumbnail Five
   caption: This is the fifth thumbnail that I am sharing with you.
@@ -29,7 +29,7 @@ images:
   caption: This is the eighth thumbnail that I am sharing with you.
 ---
 
-Here's the thumbnail gallery for this project! It's really neato! Here's some of the things I can do with this:
+By listing the images you wish to display, you can quickly create a carousel to show them off.
 
 * Tell you about my project.
 * Share images with you for you to browse at your leisure.
