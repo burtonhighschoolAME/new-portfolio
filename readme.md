@@ -11,3 +11,8 @@ A dead-simple multimedia portfolio template, built using [Bootstrap](http://twit
 4. Update CNAME to point to your domain.
 5. Follow [Github's instructions for redirecting your domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 6. Customize!
+
+### Testing At Home
+
+1. Run the following ruby command: `jekyll --pygments --no-lsi --safe --auto --server --url http://localhost:4000`
+2. Point your browser to `http://localhost:4000/simplefolio/`
