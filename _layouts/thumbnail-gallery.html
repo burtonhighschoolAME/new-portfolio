@@ -22,8 +22,12 @@
 								<a data-toggle="lightbox" href="#image-{{ forloop.index }}">
 									<img src="{{ image.src }}" alt="{{ image.label }}">
 								</a>
-								<h3>{{ image.label }}</h3>
+								{% if image.label %}
+								<h4>{{ image.label }}</h4>
+								{% endif %}
+								{% if image.caption %}
 								<p>{{ image.caption }}</p>
+								{% endif %}
 							</div>
 						</li>
 						{% endfor %}

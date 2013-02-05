@@ -25,8 +25,12 @@
 								{% endif %}
 									<img src="{{ image.src }}" alt="{{ image.label }}">
 									<div class="carousel-caption">
+										{% if image.label %}
 										<h4>{{ image.label }}</h4>
+										{% endif %}
+										{% if image.caption %}
 										<p>{{ image.caption }}</p>
+										{% endif %}
 									</div>
 								</div>
 								{% endfor %}

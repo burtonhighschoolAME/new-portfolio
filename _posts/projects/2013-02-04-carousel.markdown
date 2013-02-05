@@ -7,14 +7,12 @@ images:
   label: Thumbnail One
   caption: This is the first thumbnail that I am sharing with you.
 - src: http://dummyimage.com/1170x400/0080e2/f.png&text=placeholder+two
-  label: Thumbnail Two
-  caption: This is the second thumbnail that I am sharing with you.
+  caption: You don't have to have a label if you don't want one.
 - src: http://dummyimage.com/1170x400/0080e2/f.png&text=placeholder+three
   label: Thumbnail Three
   caption: This is the third thumbnail that I am sharing with you. This one is special, because it has way more text than the other ones around it. I think that's pretty neat, but I'm sure there are some people who would beg to differ.
 - src: http://dummyimage.com/1170x400/0080e2/f.png&text=placeholder+four
-  label: Thumbnail Four
-  caption: This is the fourth thumbnail that I am sharing with you.	  
+  label: You don't need a caption, either.  
 - src: http://dummyimage.com/1170x400/0080e2/f.png&text=placeholder+five
   label: Thumbnail Five
   caption: This is the fifth thumbnail that I am sharing with you.
